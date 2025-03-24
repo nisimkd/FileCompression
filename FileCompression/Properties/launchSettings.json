@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FileCompression": {
+      "commandName": "Project",
+      "commandLineArgs": "my-input.txt zip output.zip"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "compress", "FileCompression\compress.csproj", "{EAD587AE-E370-4A13-9CE1-CEFA3C8F29AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "compress.model", "..\compress.model\compress.model.csproj", "{53B86063-CAA5-4BE6-8BD3-297078F05112}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "compress.zip", "..\compress.zip\compress.zip.csproj", "{01B01A48-4082-454B-B330-983E9B806203}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "compress.sevenzip", "..\compress.sevenzip\compress.sevenzip.csproj", "{B55503A2-3497-4618-96EB-DD5DA2F8FF55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAD587AE-E370-4A13-9CE1-CEFA3C8F29AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAD587AE-E370-4A13-9CE1-CEFA3C8F29AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAD587AE-E370-4A13-9CE1-CEFA3C8F29AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAD587AE-E370-4A13-9CE1-CEFA3C8F29AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53B86063-CAA5-4BE6-8BD3-297078F05112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53B86063-CAA5-4BE6-8BD3-297078F05112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53B86063-CAA5-4BE6-8BD3-297078F05112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53B86063-CAA5-4BE6-8BD3-297078F05112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01B01A48-4082-454B-B330-983E9B806203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01B01A48-4082-454B-B330-983E9B806203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01B01A48-4082-454B-B330-983E9B806203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01B01A48-4082-454B-B330-983E9B806203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B55503A2-3497-4618-96EB-DD5DA2F8FF55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B55503A2-3497-4618-96EB-DD5DA2F8FF55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B55503A2-3497-4618-96EB-DD5DA2F8FF55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B55503A2-3497-4618-96EB-DD5DA2F8FF55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
