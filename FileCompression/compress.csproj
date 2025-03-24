@@ -6,13 +6,13 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\compress.model\compress.model.csproj" />
-  </ItemGroup>
   
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
     <Exec Command="xcopy /Y &quot;$(SolutionDir)..\compress.zip\bin\$(Configuration)\net9.0\*.dll&quot; &quot;$(TargetDir)&quot;&#xD;&#xA;xcopy /Y &quot;$(SolutionDir)..\compress.sevenzip\bin\$(Configuration)\net9.0\*.dll&quot; &quot;$(TargetDir)&quot;" />
   </Target>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\compress.model\compress.model.csproj" />
+  </ItemGroup>
 
 </Project>
